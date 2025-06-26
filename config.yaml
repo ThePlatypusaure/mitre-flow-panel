@@ -1,0 +1,5 @@
+mitre-attack:
+  domain: enterprise-attack
+  version: "17.1"
+logging:
+  debug: true
