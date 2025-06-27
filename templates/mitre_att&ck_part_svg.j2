@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  style="background: transparent; background-color: transparent; color-scheme: light dark;" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" 
+  {% set width = 160 + 2 %}
+  {% set height = (80 * (techniques | length)) + 62 %}
+  width="{{width}}px" height="{{height}}px" viewBox="-0.5 -0.5 {{width}} {{height}}]">
+  <defs />
+  <g>
+    {% set x_tactic_position = 1 %}
+    {% set tactic_border_height = 60 + (techniques | length) * 80 %}
+    <g id="cell-tactic-{{mitre_id}}">
+      <g>
+        <rect x="{{x_tactic_position}}" y="1" width="160" height="40"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" stroke-width="2" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="{{x_tactic_position}}" y="1" width="160" height="40"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml"
+                style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                  box-sizing: border-box; font-size: 12px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                  line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              {{name}}
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-border-{{mitre_id}}">
+      <g>
+        <rect x="{{x_tactic_position}}" y="0" width="160" height="{{tactic_border_height}}"
+          fill="none" stroke="light-dark(#000000, #ffffff)" stroke-width="2" pointer-events="all"/>
+      </g>
+    </g>
+    {% set y_technique_offset = 60 %}
+    {% set x_technique_position = x_tactic_position + 20 %}
+    {% for technique in techniques %}
+    {% set y_technique_position = y_technique_offset + (loop.index - 1) * 80 %}
+    <g id="cell-technique-{{technique.mitre_id}}">
+      <g>
+        <rect x="{{x_technique_position}}" y="{{y_technique_position}}" width="120" height="60"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="{{x_technique_position}}" y="{{y_technique_position}}" width="120" height="60"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 12px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              {{technique.name}}
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    {% endfor %}{# endfor techniques #}
+  </g>
+</svg>

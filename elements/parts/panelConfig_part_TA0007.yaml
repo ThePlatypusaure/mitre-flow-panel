@@ -1,0 +1,304 @@
+---
+
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+defaultStrokeThresholds: &defaultStrokeThresholds 
+  - {color: "stroke_low", level: 1}
+  - {color: "stroke_medium", level: 50}
+  - {color: "stroke_high", level: 100}
+
+defaultFillThresholds: &defaultFillThresholds
+  - {color: "fill_low", level: 1}
+  - {color: "fill_medium", level: 50}
+  - {color: "fill_high", level: 100}
+
+defaultLabelThresholds: &defaultLabelThresholds
+  - {color: "label_low", level: 1}
+  - {color: "label_medium", level: 50}
+  - {color: "label_high", level: 100}
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+datapoint: "last"
+gradient: "none"
+
+cells:
+  tactic-TA0007:
+    dataRef: falco-TA0007
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  border-TA0007:
+    dataRef: falco-TA0007
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+  technique-T1033:
+    dataRef: falco-T1033
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1613:
+    dataRef: falco-T1613
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1069:
+    dataRef: falco-T1069
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1615:
+    dataRef: falco-T1615
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1652:
+    dataRef: falco-T1652
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1007:
+    dataRef: falco-T1007
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1040:
+    dataRef: falco-T1040
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1135:
+    dataRef: falco-T1135
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1120:
+    dataRef: falco-T1120
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1082:
+    dataRef: falco-T1082
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1010:
+    dataRef: falco-T1010
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1580:
+    dataRef: falco-T1580
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1217:
+    dataRef: falco-T1217
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1673:
+    dataRef: falco-T1673
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1016:
+    dataRef: falco-T1016
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1087:
+    dataRef: falco-T1087
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1482:
+    dataRef: falco-T1482
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1083:
+    dataRef: falco-T1083
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1049:
+    dataRef: falco-T1049
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1497:
+    dataRef: falco-T1497
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1619:
+    dataRef: falco-T1619
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1654:
+    dataRef: falco-T1654
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1057:
+    dataRef: falco-T1057
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1201:
+    dataRef: falco-T1201
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1012:
+    dataRef: falco-T1012
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1614:
+    dataRef: falco-T1614
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1526:
+    dataRef: falco-T1526
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1018:
+    dataRef: falco-T1018
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1046:
+    dataRef: falco-T1046
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1518:
+    dataRef: falco-T1518
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1538:
+    dataRef: falco-T1538
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1622:
+    dataRef: falco-T1622
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  technique-T1124:
+    dataRef: falco-T1124
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
