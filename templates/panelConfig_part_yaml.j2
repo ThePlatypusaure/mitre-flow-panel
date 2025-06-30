@@ -1,0 +1,50 @@
+---
+
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+defaultStrokeThresholds: &defaultStrokeThresholds 
+  - {color: "stroke_low", level: 1}
+  - {color: "stroke_medium", level: 10}
+  - {color: "stroke_high", level: 25}
+
+defaultFillThresholds: &defaultFillThresholds
+  - {color: "fill_low", level: 1}
+  - {color: "fill_medium", level: 10}
+  - {color: "fill_high", level: 25}
+
+defaultLabelThresholds: &defaultLabelThresholds
+  - {color: "label_low", level: 1}
+  - {color: "label_medium", level: 10}
+  - {color: "label_high", level: 25}
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+datapoint: "last"
+gradient: "none"
+
+cells:
+  tactic-{{mitre_id}}:
+    dataRef: falco-{{mitre_id}}
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  border-{{mitre_id}}:
+    dataRef: falco-{{mitre_id}}
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+  {% for technique in techniques %}
+  technique-{{technique.mitre_id}}:
+    dataRef: falco-{{technique.mitre_id}}
+    labelColor:
+      thresholds: *defaultLabelThresholds
+    strokeColor:
+      thresholds: *defaultStrokeThresholds
+    fillColor:
+      thresholds: *defaultFillThresholds
+  {% endfor %}{# endfor techniques #}
