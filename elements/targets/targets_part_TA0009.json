@@ -1,0 +1,241 @@
+{
+  "id": 1,
+  "type": "andrewbmchugh-flow-panel",
+  "title": "",
+  "gridPos": {
+    "x": 0,
+    "y": 0,
+    "h": 122,
+    "w": 2
+  },
+  "fieldConfig": {
+    "defaults": {},
+    "overrides": []
+  },
+  "pluginVersion": "1.18.2",
+  "targets": [
+    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"mitre_collection\" [$__range]))",
+      "legendFormat": "falco-TA0009",
+      "queryType": "range",
+      "refId": "mitre_collection"
+    },
+    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1113\" [$__range]))",
+      "legendFormat": "falco-T1113",
+      "queryType": "range",
+      "refId": "T1113"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1557\" [$__range]))",
+      "legendFormat": "falco-T1557",
+      "queryType": "range",
+      "refId": "T1557"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1602\" [$__range]))",
+      "legendFormat": "falco-T1602",
+      "queryType": "range",
+      "refId": "T1602"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1123\" [$__range]))",
+      "legendFormat": "falco-T1123",
+      "queryType": "range",
+      "refId": "T1123"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1114\" [$__range]))",
+      "legendFormat": "falco-T1114",
+      "queryType": "range",
+      "refId": "T1114"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1025\" [$__range]))",
+      "legendFormat": "falco-T1025",
+      "queryType": "range",
+      "refId": "T1025"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1119\" [$__range]))",
+      "legendFormat": "falco-T1119",
+      "queryType": "range",
+      "refId": "T1119"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1115\" [$__range]))",
+      "legendFormat": "falco-T1115",
+      "queryType": "range",
+      "refId": "T1115"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1530\" [$__range]))",
+      "legendFormat": "falco-T1530",
+      "queryType": "range",
+      "refId": "T1530"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1005\" [$__range]))",
+      "legendFormat": "falco-T1005",
+      "queryType": "range",
+      "refId": "T1005"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1560\" [$__range]))",
+      "legendFormat": "falco-T1560",
+      "queryType": "range",
+      "refId": "T1560"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1185\" [$__range]))",
+      "legendFormat": "falco-T1185",
+      "queryType": "range",
+      "refId": "T1185"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1125\" [$__range]))",
+      "legendFormat": "falco-T1125",
+      "queryType": "range",
+      "refId": "T1125"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1074\" [$__range]))",
+      "legendFormat": "falco-T1074",
+      "queryType": "range",
+      "refId": "T1074"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1039\" [$__range]))",
+      "legendFormat": "falco-T1039",
+      "queryType": "range",
+      "refId": "T1039"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1056\" [$__range]))",
+      "legendFormat": "falco-T1056",
+      "queryType": "range",
+      "refId": "T1056"
+    },    {
+      "datasource": {
+        "type": "loki",
+        "uid": "P8E80F9AEF21F6940"
+      },
+      "direction": "backward",
+      "editorMode": "code",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1213\" [$__range]))",
+      "legendFormat": "falco-T1213",
+      "queryType": "range",
+      "refId": "T1213"
+    }  ],
+  "datasource": {
+    "uid": "P8E80F9AEF21F6940",
+    "type": "loki"
+  },
+  "options": {
+    "svg" : "",
+    "panelConfig": "",
+    "siteConfig": "---\n\nzoomPanPinch:\n  wheelActivationKeys: [\"Alt\"]\n\ncolors:\n  black: \"#000000\"\n  cioccolato: \"#55280C\"\n  frangipani: \"#FFDEB3\"\n  gold: \"#FFD700\"\n  pizazz: \"#FF9000\"\n  red_ribbon: \"#ED0A3F\"\n  saddle_brown_approx: \"#4A3D00\"\n  temptress: \"#3B000B\"\n  varden: \"#FFF6DF\"\n  vivid_tangerine: \"#FF9980\"\n\ncellColorMappings:\n  darkTheme:\n    # Low\n    label_low: \"gold\"\n    stroke_low: \"gold\"\n    fill_low: \"saddle_brown_approx\"\n    # Medium\n    label_medium: \"pizazz\"\n    stroke_medium: \"pizazz\"\n    fill_medium: \"cioccolato\"\n    # High\n    label_high: \"red_ribbon\"\n    stroke_high: \"red_ribbon\"\n    fill_high: \"temptress\"\n  lightTheme:\n    # Low\n    label_low: \"black\"\n    stroke_low: \"gold\"\n    fill_low: \"varden\"\n    # Medium\n    label_medium: \"black\"\n    stroke_medium: \"pizazz\"\n    fill_medium: \"frangipani\"\n    # High\n    label_high: \"black\"\n    stroke_high: \"red_ribbon\"\n    fill_high: \"vivid_tangerine_approx\"",
+    "panZoomEnabled": true,
+    "animationsEnabled": false,
+    "animationControlEnabled": false,
+    "highlighterEnabled": false,
+    "highlighterSelection": "",
+    "timeSliderEnabled": false,
+    "timeSliderMode": "local",
+    "testDataEnabled": false,
+    "debuggingCtr": {
+      "timingsCtr": 0,
+      "colorsCtr": 0,
+      "mappingsCtr": 0,
+      "dataCtr": 0,
+      "displaySvgCtr": 0
+    }
+  }
+}
