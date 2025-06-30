@@ -1,0 +1,488 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  style="background: transparent; background-color: transparent; color-scheme: light dark;" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" 
+  width="200px" height="2475px" viewBox="-0.5 -0.5 200 2475]">
+  <defs />
+  <g>
+    <g id="cell-tactic-TA0010-TA0040">
+      <g>
+        <rect x="1" y="1" width="198" height="49"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" stroke-width="2" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="1" y="1" width="198" height="49"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml"
+                style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                  box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                  line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Exfiltration &amp;<br/>Impact
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-border-TA0010-TA0040">
+      <g>
+        <rect x="1" y="1" width="198" height="2473"
+          fill="none" stroke="light-dark(#000000, #ffffff)" stroke-width="2" pointer-events="all"/>
+      </g>
+    </g>
+    <g id="cell-technique-T1567">
+      <g>
+        <rect x="26" y="74" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="74" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Exfiltration Over Web Service
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1029">
+      <g>
+        <rect x="26" y="174" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="174" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Scheduled Transfer
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1011">
+      <g>
+        <rect x="26" y="274" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="274" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Exfiltration Over Other Network Medium
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1020">
+      <g>
+        <rect x="26" y="374" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="374" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Automated Exfiltration
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1041">
+      <g>
+        <rect x="26" y="474" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="474" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Exfiltration Over C2 Channel
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1048">
+      <g>
+        <rect x="26" y="574" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="574" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Exfiltration Over Alternative Protocol
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1030">
+      <g>
+        <rect x="26" y="674" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="674" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Data Transfer Size Limits
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1537">
+      <g>
+        <rect x="26" y="774" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="774" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Transfer Data to Cloud Account
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1052">
+      <g>
+        <rect x="26" y="874" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="874" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Exfiltration Over Physical Medium
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1561">
+      <g>
+        <rect x="26" y="974" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="974" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Disk Wipe
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1489">
+      <g>
+        <rect x="26" y="1074" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="1074" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Service Stop
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1491">
+      <g>
+        <rect x="26" y="1174" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="1174" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Defacement
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1657">
+      <g>
+        <rect x="26" y="1274" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="1274" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Financial Theft
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1565">
+      <g>
+        <rect x="26" y="1374" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="1374" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Data Manipulation
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1531">
+      <g>
+        <rect x="26" y="1474" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="1474" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Account Access Removal
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1486">
+      <g>
+        <rect x="26" y="1574" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="1574" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Data Encrypted for Impact
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1667">
+      <g>
+        <rect x="26" y="1674" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="1674" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Email Bombing
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1499">
+      <g>
+        <rect x="26" y="1774" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="1774" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Endpoint Denial of Service
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1496">
+      <g>
+        <rect x="26" y="1874" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="1874" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Resource Hijacking
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1485">
+      <g>
+        <rect x="26" y="1974" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="1974" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Data Destruction
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1498">
+      <g>
+        <rect x="26" y="2074" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="2074" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Network Denial of Service
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1495">
+      <g>
+        <rect x="26" y="2174" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="2174" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Firmware Corruption
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1490">
+      <g>
+        <rect x="26" y="2274" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="2274" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              Inhibit System Recovery
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+    <g id="cell-technique-T1529">
+      <g>
+        <rect x="26" y="2374" width="150" height="75"
+          fill="light-dark(#ffffff, #121212)" stroke="light-dark(#000000, #ffffff)" pointer-events="all"/>
+      </g>
+      <g>
+        <switch>
+          <foreignObject x="26" y="2374" width="150" height="75"
+            style="overflow: visible; text-align: left;" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" 
+              style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;
+                box-sizing: border-box; font-size: 15px; font-family: Helvetica; color: light-dark(#000000, #ffffff);
+                line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; text-align: center;">
+              System Shutdown/Reboot
+            </div>
+          </foreignObject>
+        </switch>
+      </g>
+    </g>
+  </g>
+</svg>
