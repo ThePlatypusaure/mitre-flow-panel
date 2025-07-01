@@ -41,4 +41,4 @@ cellColorMappings:
     # High
     label_high: "black"
     stroke_high: "red_ribbon"
-    fill_high: "vivid_tangerine_approx"
+    fill_high: "vivid_tangerine"
