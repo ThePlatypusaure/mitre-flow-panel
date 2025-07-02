@@ -21,7 +21,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"mitre_collection\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"mitre_collection\" [$__range]))",
       "legendFormat": "falco-TA0009",
       "queryType": "range",
       "refId": "mitre_collection"
@@ -33,7 +33,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1113\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1113\" [$__range]))",
       "legendFormat": "falco-T1113",
       "queryType": "range",
       "refId": "T1113"
@@ -44,7 +44,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1557\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1557\" [$__range]))",
       "legendFormat": "falco-T1557",
       "queryType": "range",
       "refId": "T1557"
@@ -55,7 +55,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1602\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1602\" [$__range]))",
       "legendFormat": "falco-T1602",
       "queryType": "range",
       "refId": "T1602"
@@ -66,7 +66,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1123\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1123\" [$__range]))",
       "legendFormat": "falco-T1123",
       "queryType": "range",
       "refId": "T1123"
@@ -77,7 +77,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1114\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1114\" [$__range]))",
       "legendFormat": "falco-T1114",
       "queryType": "range",
       "refId": "T1114"
@@ -88,7 +88,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1025\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1025\" [$__range]))",
       "legendFormat": "falco-T1025",
       "queryType": "range",
       "refId": "T1025"
@@ -99,7 +99,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1119\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1119\" [$__range]))",
       "legendFormat": "falco-T1119",
       "queryType": "range",
       "refId": "T1119"
@@ -110,7 +110,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1115\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1115\" [$__range]))",
       "legendFormat": "falco-T1115",
       "queryType": "range",
       "refId": "T1115"
@@ -121,7 +121,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1530\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1530\" [$__range]))",
       "legendFormat": "falco-T1530",
       "queryType": "range",
       "refId": "T1530"
@@ -132,7 +132,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1005\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1005\" [$__range]))",
       "legendFormat": "falco-T1005",
       "queryType": "range",
       "refId": "T1005"
@@ -143,7 +143,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1560\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1560\" [$__range]))",
       "legendFormat": "falco-T1560",
       "queryType": "range",
       "refId": "T1560"
@@ -154,7 +154,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1185\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1185\" [$__range]))",
       "legendFormat": "falco-T1185",
       "queryType": "range",
       "refId": "T1185"
@@ -165,7 +165,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1125\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1125\" [$__range]))",
       "legendFormat": "falco-T1125",
       "queryType": "range",
       "refId": "T1125"
@@ -176,7 +176,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1074\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1074\" [$__range]))",
       "legendFormat": "falco-T1074",
       "queryType": "range",
       "refId": "T1074"
@@ -187,7 +187,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1039\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1039\" [$__range]))",
       "legendFormat": "falco-T1039",
       "queryType": "range",
       "refId": "T1039"
@@ -198,7 +198,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1056\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1056\" [$__range]))",
       "legendFormat": "falco-T1056",
       "queryType": "range",
       "refId": "T1056"
@@ -209,7 +209,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"T1213\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"T1213\" [$__range]))",
       "legendFormat": "falco-T1213",
       "queryType": "range",
       "refId": "T1213"

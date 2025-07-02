@@ -21,7 +21,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"{{falco_name}}\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"{{falco_name}}\" [$__range]))",
       "legendFormat": "falco-{{mitre_id}}",
       "queryType": "range",
       "refId": "{{falco_name}}"
@@ -34,7 +34,7 @@
       },
       "direction": "backward",
       "editorMode": "code",
-      "expr": "sum(count_over_time({namespace_name=\"supportservices\", pod_name=~\"falco-.*\"} | json | log_processed_rule!=\"\" |~ \"{{technique.mitre_id}}\" [$__range]))",
+      "expr": "sum(count_over_time({namespace_name=\"supportservices\", container_name=\"falco\"} | json | log_processed_rule!=\"\" |~ \"{{technique.mitre_id}}\" [$__range]))",
       "legendFormat": "falco-{{technique.mitre_id}}",
       "queryType": "range",
       "refId": "{{technique.mitre_id}}"
